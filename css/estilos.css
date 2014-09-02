@@ -7,6 +7,7 @@
 	right: 0;
 	text-align: center;
 	top: 0;
+	z-index: 1;
 }
 .MenuPrincipal-lista{
 	margin: 0;
@@ -33,20 +34,24 @@
 }
 .Header-imageContainer,.Header-titulo{
 	display: inline-block;
+	vertical-align: middle;
 	width: 23%;
 }
+.Header-logo{
+	width: 100%;
+}
 .Header-titulo{
+	font-size: 1.8em;
 	width: 60%;
-	font-size: 2.5em;
 }
 .Header-enlace{
 	background: #0075B2;
 	border: 0.2em solid white;
 	border-top-right-radius: 1.5em;
-	border-bottom-left-radius: 1.5em;
+	border-bottom-left-radius: 1em;
 	bottom: 0;
 	color: white;
-	margin: 0.7em;
+	margin: 0 1em 2.8em 1.5em;
 	padding: 1em;
 	position: absolute;
 	right: 0;
