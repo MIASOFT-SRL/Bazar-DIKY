@@ -1,13 +1,14 @@
 /*Componente Menu principal*/
 .MenuPrincipal{
 	background: #FF9712;/*Color naranja*/
-	height: 3.75em;
 	left: 0;
+	min-height: : 3.75em;
 	position: fixed;
 	right: 0;
 	text-align: center;
 	top: 0;
-	z-index: 1;
+	z-index: 91;
+	
 }
 .MenuPrincipal-lista{
 	margin: 0;
@@ -64,4 +65,10 @@
 	border-top-right-radius: 1.5em;
 	max-width: 75em;
 	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 1em;
+}
+/*Componente Baner*/
+.Baner{
+	
 }
