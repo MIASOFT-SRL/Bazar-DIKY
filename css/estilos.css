@@ -109,7 +109,7 @@
 }
 /*Componente Producto*/
 .Producto{
-	/*background: green;*/
+	background: #EEF3EE;
 	padding-top: 3.75em;
 }
 .Producto-titulo{
@@ -125,10 +125,140 @@
 .Producto-imagenProductoContainer{
 	text-align: center;
 }
-.
 .Producto-imageProducto{
-
+	border-radius: 50%;
 }
 .Producto-imageProductoDescripcion{
 	text-align: center;
+}
+/*Componente quienes confian en nosotros QCEN*/
+.QCEN{
+	padding-top: 3.75em;
+}
+.QCEN-titulo{
+	font-size: 2em;
+	text-align: center;
+}
+.QCEN-articulo{
+	
+}
+.QCEN-imageArticuloContainer,
+.QCEN-articuloContainer{
+	display: inline-block;
+	vertical-align: top;
+}
+.QCEN-articuloContainer{
+	/*background: green;*/
+	padding: 0 1em;
+	width: 40%;
+}
+.QCEN-articuloTitulo{
+	font-size: 1.8em;
+	margin-top: 0;
+}
+.QCEN-articuloDescripcion{
+	text-align: justify;
+}
+.QCEN-imageArticuloContainer{
+	margin: 0;
+	padding: 0;
+	width: 55%;
+}
+.QCEN-imageArticulo{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.QCEN-enlace{
+	display: block;
+	margin: 2em 2em 0 2em;
+	text-align: right;
+}
+/*Componente Encuentranos*/
+.Encuentranos{
+	/*background: green;*/
+	padding-top: 3.75em;
+}
+.Encuentranos-imagenMapaContainer,
+.Encuentrenos-container{
+	display: inline-block;
+	vertical-align: top;
+}
+.Encuentranos-imagenMapaContainer{
+	/*background: red;*/
+	margin: 0;
+	width: 50%;
+}
+.Encuentranos-imageMapa{
+	min-height: 25em;
+	width: 100%;
+}
+.Encuentranos-imageDescripcion{
+	text-align: center;
+}
+.Encuentrenos-container{
+	/*background: yellow;*/
+	margin: 0 1em;
+	width: 45%;
+}
+.Encuentrenos-titulo{
+	text-align: center;
+	font-size: 2em;
+}
+.Encuentrenos-containerTitulo{
+	font-size: 1.8em;
+}
+.Encuentrenos-descripcion{
+	text-align: justify;
+}
+/*Componente Contactenos*/
+.Contactenos{
+	background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 2em 0;
+}
+.Contactenos-Container{
+	width: 45%;
+    display:  inline-block;
+    vertical-align: top;
+}
+.Contactenos-titulo{
+	font-size: 2em;
+	text-align: center;
+}
+.Contactenos-descripcion{
+
+}
+.Contactenos-form{
+	padding: 2em;
+    width: 45%;
+    display:  inline-block;
+    vertical-align: top;
+}
+.Contactenos-input,
+.Contactenos-textarea{
+	background: white;
+    border: none;
+    display: block;
+    border-radius: 2em;
+    padding: .8em;
+    outline: 0;
+    margin: 0 auto .8em;
+    width: 100%;
+}
+.Contactenos-input{
+
+}
+.Contactenos-textarea{
+
+}
+.Contactenos-button{
+	background: orange;
+    border: none;
+    color: white;
+    padding: .5em;
+    border-radius: 1.5em;
 }
