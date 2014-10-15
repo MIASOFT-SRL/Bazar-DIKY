@@ -69,7 +69,8 @@
 }
 /*Componente Baner*/
 .Baner{
-	/*background: yellow;*/
+	background: #EEF3EE;
+	padding: 3.75em 0;
 }
 /*Componente QuienesSomos*/
 .QuienesSomos{
@@ -110,7 +111,7 @@
 /*Componente Producto*/
 .Producto{
 	background: #EEF3EE;
-	padding-top: 3.75em;
+	padding: 3.75em 0;
 }
 .Producto-titulo{
 	text-align: center;
@@ -133,7 +134,7 @@
 }
 /*Componente quienes confian en nosotros QCEN*/
 .QCEN{
-	padding-top: 3.75em;
+	padding: 3.75em 0;
 }
 .QCEN-titulo{
 	font-size: 2em;
@@ -165,19 +166,30 @@
 	width: 55%;
 }
 .QCEN-imageArticulo{
+	border-radius: 3em;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
+.QCEN-enlaceContainer{
+	text-align: right;
+}
 .QCEN-enlace{
-	display: block;
+	background: orange;
+    border: none;
+    border-radius: 0.8em;
+    color: white;
+	padding: 1em;
+	position: relative;
 	margin: 2em 2em 0 2em;
 	text-align: right;
+	text-decoration: none;
+	top: 1.7em;
 }
 /*Componente Encuentranos*/
 .Encuentranos{
-	/*background: green;*/
-	padding-top: 3.75em;
+	background: #EEF3EE;
+	padding: 3.75em 0;
 }
 .Encuentranos-imagenMapaContainer,
 .Encuentrenos-container{
@@ -186,7 +198,7 @@
 }
 .Encuentranos-imagenMapaContainer{
 	/*background: red;*/
-	margin: 0;
+	margin: 0 0 0 1em;
 	width: 50%;
 }
 .Encuentranos-imageMapa{
@@ -217,8 +229,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 3.75em 0;
     text-align: center;
-    padding: 2em 0;
 }
 .Contactenos-Container{
 	width: 45%;
@@ -253,7 +265,7 @@
 
 }
 .Contactenos-textarea{
-
+	min-height: 12.5em;
 }
 .Contactenos-button{
 	background: orange;
