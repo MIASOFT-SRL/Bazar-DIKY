@@ -2,13 +2,12 @@
 .MenuPrincipal{
 	background: #FF9712;/*Color naranja*/
 	left: 0;
-	min-height: : 3.75em;
+	height: 3.75em;
 	position: fixed;
 	right: 0;
 	text-align: center;
 	top: 0;
 	z-index: 91;
-	
 }
 .MenuPrincipal-lista{
 	margin: 0;
@@ -29,9 +28,11 @@
 	border-bottom-right-radius: 1.5em;
 	border-bottom-left-radius: 1.5em;
 	color: white;
-	margin: 3.75em auto .3em auto;
+	margin: 0 auto .3em auto;
 	max-width: 75em;
 	position: relative;
+	padding-top: 3.75em;
+	
 }
 .Header-imageContainer,.Header-titulo{
 	display: inline-block;
