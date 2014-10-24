@@ -13,9 +13,12 @@
 </head>
 <body>
 	<nav class="MenuPrincipal">
+		<figure class="MenuPrincipal-imageContainer">
+			<img src="img/p-bazar-diky.png" class="MenuPrincipal-logo" alt="BAZAR DIKY"/>
+		</figure>
 		<ul class="MenuPrincipal-lista">
 			<li class="MenuPrincipal-item">
-				<a class="MenuPrincipal-enlace" href="#header">Inicio</a>
+				<a class="MenuPrincipal-enlace" href="#baner">Inicio</a>
 			</li>
 			<li class="MenuPrincipal-item">
 				<a class="MenuPrincipal-enlace" href="#quienesSomos">Quienes Somos</a>
@@ -33,6 +36,8 @@
 				<a class="MenuPrincipal-enlace"  href="#contactenos">Contáctenos</a>
 			</li>
 		</ul>
+		<div Class="MenuPrincipal-linea">
+		</div>
 	</nav>
 	<header id="header" class="Header">
 		<figure class="Header-imageContainer">
@@ -44,7 +49,7 @@
 		<a href="#conatactenos" class="Header-enlace">Registrarse</a>
 	</header>
 	<section id="contenido" class="Contenedor">
-		<section id="baner" class="Baner">
+		<section id="baner" class="Baner u-SectionHeight">
 			<!-- aqui va el carrusel de imagenes del negocio -->
 			<div id="wowslider-container1">
 				<div class="ws_images">
@@ -78,10 +83,12 @@
 			<script type="text/javascript" src="plugins/engine1/wowslider.js"></script>
 			<script type="text/javascript" src="plugins/engine1/script.js"></script>
 		</section>
-		<section id="quienesSomos" class="QuienesSomos">
+		<section id="quienesSomos" class="QuienesSomos u-SectionHeight">
+			<!-- se saco por css -->
 			<figure class="QuienesSomos-imageLogoContainer">
 				<img src="img/bazar-diky.png" class="QuienesSomos-logo" alt="BAZAR DIKY">
 			</figure>
+
 			<div class="QuienesSomos-Container">
 				<h2 class="QuienesSomos-titulo">
 					Bazar Diky
@@ -99,7 +106,7 @@
 				</figcaption>
 			</figure>
 		</section>
-		<section id="productos" class="Producto">
+		<section id="productos" class="Producto u-SectionHeight">
 			<h2 class="Producto-titulo">
 				Productos
 			</h2>
@@ -129,7 +136,7 @@
 			</article>
 		</section>
 		<!-- QCEN es igual a Quienes Confian en nosostros esto es una abreviatura -->
-		<section id="quienesConfianEnNosotros" class="QCEN">
+		<section id="quienesConfianEnNosotros" class="QCEN u-SectionHeight">
 			<h2 class ="QCEN-titulo">
 				Quienes confían en nosotros
 			</h2>
@@ -165,7 +172,7 @@
 				<a href="#" class="QCEN-enlace">ver mas</a>
 			</div>
 		</section>
-		<section id="encuentrenos" class="Encuentranos">
+		<section id="encuentrenos" class="Encuentranos u-SectionHeight">
 			<!-- Aqui va el mapa de la feria el mapa es de google maps -->
 			<h2 class="Encuentrenos-titulo">
 				Encuentranos en...!
@@ -191,7 +198,7 @@
 				</p>
 			</div>
 		</section>
-		<section id="contactenos" class="Contactenos">
+		<section id="contactenos" class="Contactenos u-SectionHeight">
 			<div class="Contactenos-Container">
                 <h3 class="Contactenos-titulo">Contáctenos</h3>
                 <p class="Contactenos-descripcion">Si quieres contratarme puedes escribirme en este pequeño formulario</p>
