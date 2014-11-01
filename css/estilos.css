@@ -3,7 +3,7 @@
 }
 /*Componente Menu principal*/
 .MenuPrincipal{
-	background: rgba(249,241,235,0);/*Color naranja  #FF9712*/
+	background-color: rgba(255,255,255,0);/*Color naranja  #FF9712*/
 	left: 0;
 	padding: 0;
 	position: fixed;
@@ -11,6 +11,16 @@
 	text-align: center;
 	top: 0;
 	z-index: 91;
+}
+.MenuPrincipalScroll{/*se agrega cuando se hace scroll a la pagina*/
+	background-color: rgba(255,243,224,.7);/*Color naranja  #FF9712*/
+	/*left: 0;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	z-index: 91;*/
 }
 	/*.MenuPrincipal:hover{
 		background: rgba(249,241,235,1);
@@ -168,6 +178,7 @@
 /*Componente quienes confian en nosotros QCEN*/
 .QCEN{
 	padding: 3.75em 0;
+	display: none;
 }
 .QCEN-titulo{
 	font-size: 2em;
