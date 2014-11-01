@@ -3,14 +3,16 @@
 // la página para evitar inconscistencias.
 $(document).ready(function() {
   var contenedor = $('#menu-contenedor');
+  var image_contenedor = $('#image-contenedor');
   // Cada vez que se haga scroll en la página
   // haremos un chequeo del estado del menú
-  // y lo vamos a alternar entre 'fixed' y 'static'.
   $(window).on('scroll', function() {
     if($(window).scrollTop() > 140) {
       contenedor.addClass('MenuPrincipalScroll');
+      image_contenedor.addClass('MenuPrincipal-imageContainerScroll');
     } else {
       contenedor.removeClass('MenuPrincipalScroll');
+      image_contenedor.removeClass('MenuPrincipal-imageContainerScroll');
     }
   });
 });

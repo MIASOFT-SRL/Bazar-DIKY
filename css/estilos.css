@@ -13,18 +13,14 @@
 	z-index: 91;
 }
 .MenuPrincipalScroll{/*se agrega cuando se hace scroll a la pagina*/
-	background-color: rgba(255,243,224,.7);/*Color naranja  #FF9712*/
-	/*left: 0;
-	padding: 0;
+	background-color: rgba(255,224,178,.7);/*Color naranja  #FF9712*/
+	border-bottom-right-radius: 3em;
+	border-bottom-left-radius: 3em;
+	left: 20%;
+	overflow: hidden;
 	position: fixed;
-	right: 0;
-	text-align: center;
-	top: 0;
-	z-index: 91;*/
+	right: 20%;
 }
-	/*.MenuPrincipal:hover{
-		background: rgba(249,241,235,1);
-	}*/
 .MenuPrincipal-imageContainer,.MenuPrincipal-lista{
 	display: inline-block;
 	vertical-align: bottom;
@@ -36,6 +32,9 @@
 	position: absolute;
 	top: 0;
 	width: 180px;
+}
+.MenuPrincipal-imageContainerScroll{
+	display: none;
 }
 .MenuPrincipal-logo{
 	width: 100%;
