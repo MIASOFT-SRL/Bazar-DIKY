@@ -8,14 +8,16 @@ $(document).ready(function() {
   // Cada vez que se haga scroll en la página
   // haremos un chequeo del estado del menú
   $(window).on('scroll', function() {
-    if($(window).scrollTop() > 140) {
+    if($(window).scrollTop() > 10) {
       contenedor.addClass('MenuPrincipalScroll');
       image_contenedor.addClass('MenuPrincipal-imageContainerScroll');
       menu.addClass('MenuPrincipal-listaScroll');
+      //console.log('si');
     } else {
       contenedor.removeClass('MenuPrincipalScroll');
       image_contenedor.removeClass('MenuPrincipal-imageContainerScroll');
       menu.removeClass('MenuPrincipal-listaScroll');
+      //console.log('no');
     }
   });
 });
