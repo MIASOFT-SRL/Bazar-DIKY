@@ -35,6 +35,8 @@
 }
 .MenuPrincipal-imageContainerScroll{
 	display: none;
+	height: 0;
+	vertical-align: top;
 }
 .MenuPrincipal-logo{
 	width: 100%;
@@ -42,6 +44,9 @@
 .MenuPrincipal-lista{
 	margin: 0;
 	padding: 1.1em 0 0 0;
+}
+.MenuPrincipal-listaScroll{
+	padding: 0;
 }
 .MenuPrincipal-item{
 	display: inline-block;
